@@ -8,6 +8,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_run:
+    types: []  # Disable email notifications for workflow runs    
 
 permissions:
   contents: read
