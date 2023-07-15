@@ -3,9 +3,7 @@ name: getStarted
 on:
   push:
     branches:
-      - main  # Adjust the branch name as per your repository's default branch
-  workflow_run:
-    types: []  # Disable email notifications for workflow runs  
+      - main  # Adjust the branch name as per your repository's default branch 
 
 jobs:
   build:
