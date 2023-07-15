@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Adjust the branch name as per your repository's default branch
+  workflow_dispatch:  # Add this section for manual triggering
 
 jobs:
   build:
