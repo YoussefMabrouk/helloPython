@@ -1,6 +1,4 @@
-
 install:
-    pip install numpy pandas
-
+    pip install pandas numpy
 test:
     python print.py
