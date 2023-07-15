@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="helloWorldProject",
+    name="HelloWorldHelloWorld",
     version="1.0.0",
     author="Your Name",
     author_email="your.email@example.com",
