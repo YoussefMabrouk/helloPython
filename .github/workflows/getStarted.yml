@@ -22,5 +22,5 @@ jobs:
       run: pip install numpy pandas
 
     - name: Run Python script
-      run: python print.py  # Replace 'your_script.py' with the actual filename
+      run: python src/print.py  # Replace 'your_script.py' with the actual filename
 
